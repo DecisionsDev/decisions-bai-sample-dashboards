@@ -1,0 +1,1202 @@
+[
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Paul Wilson",
+         "yearlyIncome": 16000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 83,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "John Wilson",
+         "yearlyIncome": 35000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 295,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Linda Doe",
+         "yearlyIncome": 74000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 24,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Paul Doe",
+         "yearlyIncome": 18000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 202,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Linda Dupont",
+         "yearlyIncome": 49000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 106,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Betty Doe",
+         "yearlyIncome": 13000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 185,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Linda Wilson",
+         "yearlyIncome": 25000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 191,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "John Wilson",
+         "yearlyIncome": 50000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 278,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "John Doe",
+         "yearlyIncome": 10000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 356,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "John Wilson",
+         "yearlyIncome": 53000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 187,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Paul Doe",
+         "yearlyIncome": 18000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 320,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Paul Dupont",
+         "yearlyIncome": 74000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 176,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Paul Doe",
+         "yearlyIncome": 44000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 68,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Paul Smith",
+         "yearlyIncome": 77000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 86,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Paul Smith",
+         "yearlyIncome": 31000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 242,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Paul Smith",
+         "yearlyIncome": 49000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 149,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "John Wilson",
+         "yearlyIncome": 12000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 48,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Paul Doe",
+         "yearlyIncome": 45000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 196,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Betty Smith",
+         "yearlyIncome": 14000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 340,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Betty Dupont",
+         "yearlyIncome": 79000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 262,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Paul Smith",
+         "yearlyIncome": 52000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 95,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "John Wilson",
+         "yearlyIncome": 18000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 134,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "John Doe",
+         "yearlyIncome": 78000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 80,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Betty Smith",
+         "yearlyIncome": 47000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 300,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Betty Smith",
+         "yearlyIncome": 18000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 51,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Linda Dupont",
+         "yearlyIncome": 29000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 210,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Betty Wilson",
+         "yearlyIncome": 77000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 102,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Paul Wilson",
+         "yearlyIncome": 65000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 214,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Linda Smith",
+         "yearlyIncome": 69000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 128,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "John Dupont",
+         "yearlyIncome": 10000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 208,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Linda Wilson",
+         "yearlyIncome": 59000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 84,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Paul Doe",
+         "yearlyIncome": 9000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 166,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Betty Wilson",
+         "yearlyIncome": 71000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 271,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "John Dupont",
+         "yearlyIncome": 59000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 205,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "John Wilson",
+         "yearlyIncome": 68000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 164,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Paul Wilson",
+         "yearlyIncome": 15000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 270,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Betty Wilson",
+         "yearlyIncome": 20000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 29,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Betty Wilson",
+         "yearlyIncome": 54000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 355,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Linda Doe",
+         "yearlyIncome": 29000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 297,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Betty Wilson",
+         "yearlyIncome": 67000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 167,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Linda Dupont",
+         "yearlyIncome": 16000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 275,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "John Wilson",
+         "yearlyIncome": 60000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 301,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Linda Smith",
+         "yearlyIncome": 16000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 84,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Paul Smith",
+         "yearlyIncome": 61000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 67,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Linda Wilson",
+         "yearlyIncome": 54000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 151,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Betty Wilson",
+         "yearlyIncome": 12000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 252,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Betty Dupont",
+         "yearlyIncome": 34000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 57,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Linda Wilson",
+         "yearlyIncome": 40000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 188,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Paul Wilson",
+         "yearlyIncome": 55000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 31,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Betty Doe",
+         "yearlyIncome": 26000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 347,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Betty Doe",
+         "yearlyIncome": 39000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 176,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Betty Dupont",
+         "yearlyIncome": 64000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 337,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Linda Wilson",
+         "yearlyIncome": 25000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 138,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Linda Smith",
+         "yearlyIncome": 19000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 117,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Paul Doe",
+         "yearlyIncome": 70000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 41,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "John Smith",
+         "yearlyIncome": 76000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 43,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Betty Smith",
+         "yearlyIncome": 30000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 105,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Betty Dupont",
+         "yearlyIncome": 31000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 260,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Betty Dupont",
+         "yearlyIncome": 74000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 59,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Paul Dupont",
+         "yearlyIncome": 43000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 123,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Paul Smith",
+         "yearlyIncome": 66000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 327,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Paul Dupont",
+         "yearlyIncome": 49000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 95,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Paul Dupont",
+         "yearlyIncome": 40000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 207,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "John Doe",
+         "yearlyIncome": 26000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 174,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Paul Dupont",
+         "yearlyIncome": 60000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 95,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Linda Dupont",
+         "yearlyIncome": 68000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 291,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Betty Smith",
+         "yearlyIncome": 73000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 234,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Paul Smith",
+         "yearlyIncome": 34000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 201,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Paul Dupont",
+         "yearlyIncome": 63000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 168,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "John Dupont",
+         "yearlyIncome": 48000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 187,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Betty Doe",
+         "yearlyIncome": 45000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 342,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Betty Smith",
+         "yearlyIncome": 79000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 175,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "John Smith",
+         "yearlyIncome": 21000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 150,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Betty Wilson",
+         "yearlyIncome": 71000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 190,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Linda Smith",
+         "yearlyIncome": 60000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 319,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "John Smith",
+         "yearlyIncome": 40000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 46,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Paul Wilson",
+         "yearlyIncome": 78000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 59,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Paul Smith",
+         "yearlyIncome": 61000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 89,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Linda Wilson",
+         "yearlyIncome": 50000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 76,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Linda Smith",
+         "yearlyIncome": 45000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 30,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Linda Dupont",
+         "yearlyIncome": 23000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 61,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Betty Dupont",
+         "yearlyIncome": 51000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 82,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Linda Dupont",
+         "yearlyIncome": 72000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 153,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Betty Wilson",
+         "yearlyIncome": 43000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 264,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Linda Doe",
+         "yearlyIncome": 45000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 196,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Linda Smith",
+         "yearlyIncome": 39000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 313,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "Paul Smith",
+         "yearlyIncome": 13000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 174,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Paul Dupont",
+         "yearlyIncome": 62000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 177,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Betty Wilson",
+         "yearlyIncome": 62000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 89,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Betty Doe",
+         "yearlyIncome": 31000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 180,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "John Wilson",
+         "yearlyIncome": 76000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 42,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "John Dupont",
+         "yearlyIncome": 25000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 299,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 200,
+         "name": "John Doe",
+         "yearlyIncome": 69000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 232,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Paul Dupont",
+         "yearlyIncome": 15000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 120,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 300,
+         "name": "Linda Doe",
+         "yearlyIncome": 24000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 50,
+         "yearlyInterestRate": 0.30000000000000004
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Linda Wilson",
+         "yearlyIncome": 64000
+      },
+      "loan": {
+         "amount": 30000,
+         "duration": 91,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 100,
+         "name": "Linda Doe",
+         "yearlyIncome": 34000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 152,
+         "yearlyInterestRate": 0.5
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "Betty Smith",
+         "yearlyIncome": 30000
+      },
+      "loan": {
+         "amount": 20000,
+         "duration": 39,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 500,
+         "name": "John Wilson",
+         "yearlyIncome": 52000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 80,
+         "yearlyInterestRate": 0.4
+      }
+   },
+   {
+      "borrower": {
+         "creditScore": 400,
+         "name": "Linda Wilson",
+         "yearlyIncome": 11000
+      },
+      "loan": {
+         "amount": 40000,
+         "duration": 64,
+         "yearlyInterestRate": 0.6000000000000001
+      }
+   }
+]

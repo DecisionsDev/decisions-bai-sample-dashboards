@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Licensed Materials - Property of IBM                           -->
+<!-- 5725-B69 5655-Y17 5655-Y31 5724-X98 5724-Y15 5655-V82                                     -->
+<!-- Copyright IBM Corp. 1987, 2019. All Rights Reserved            -->
+<!-- US Government Users Restricted Rights - Use, duplication or    -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with        -->
+<!-- IBM Corp.                                                      -->
+
+
+<project name="Sample BAI execution" default="usage" basedir=".">
+	<description>How to setup BAI and emit events</description>
+	
+	  <!--              I N I T -->
+	<property name="odm.home" value="${basedir}/../../.." />
+	<property name="shared.dir" value="${odm.home}/shared" />
+	<property name="executionserver.home" value="${odm.home}/executionserver"/>
+	<property name="teamserver.home" value="${odm.home}/teamserver"/>
+	<import file="${executionserver.home}/lib/classpath-executionserver.xml"/>
+	<import file="${executionserver.home}/bin/ressetup.xml"/>
+	<property name="odm.wlp.scripts.dir" value="${odm.home}/shared/samplesServer/wlp" />
+	<import file="${odm.wlp.scripts.dir}/build.xml" />
+
+	   <import file="${teamserver.home}/lib/classpath-teamserver.xml"/>
+	  <import file="${teamserver.home}/bin/build.xml"/>
+
+	<taskdef resource="res-tasks.properties">
+		<classpath refid="executionserver.tools.classpath"/>
+	</taskdef>
+
+	  <!--              S E T U P   S A M P L E -->
+	<target name="setup" description="Sample setup">
+		<antcall target="prepareServer" />
+		<antcall target="deployLoanValidationService"/>
+		<antcall target="deployShipmentPricing"/>
+		<antcall target="setBAIProperties"/>
+		<antcall target="initialExecution"/>
+	</target>
+	  <!--              S E T U P   R A -->
+	<target name="initPrepare">
+		<property name="decisionService.war" value="DecisionService.war" />
+		<property name="decisionService.input.war" value="${executionserver.home}/applicationservers/WLP/${decisionService.war}" />
+		<property name="decisionService.output.war" value="${wlp.home}/usr/servers/${server.name}/apps/${decisionService.war}" />
+		<property name="bai.properties" value="${basedir}/data/config.properties" />
+	</target>
+
+	<target name="prepareServer"  depends="initPrepare">
+		<!-- Recreate the server to create the profile -->
+		<ant antfile="build.xml" target="recreateserver" dir="${shared.dir}/bin/" />
+		<!-- Stop the server to change the decision service war -->
+		<ant antfile="build.xml" target="stopserver" dir="${shared.dir}/bin/" />
+		<!-- Configure the decision service war to enable the BAI events-->
+		<antcall target="setupbai" />
+		<!-- Start the server ready to emit events -->
+		<ant antfile="build.xml" target="startserver" dir="${shared.dir}/bin/" />
+	</target>
+	
+	<target name="setupbai"  depends="initPrepare">
+		<!-- Configure the decision service war to enable the BAI events-->
+		<antcall target="setup-bai">
+			<param name="bai.war.in" value="${decisionService.input.war}"/>
+			<param name="bai.war.out" value="${decisionService.output.war}"/>
+			<param name="bai.enable" value="true"/>
+			<param name="bai.properties" value="${bai.properties}"/>
+		</antcall>
+	</target>
+
+	  <!--              D E P L O Y    R U L E S E T S -->
+	<target name="initDeploy">
+	 <property name="login" value="odmAdmin" />
+     <property name="password" value="odmAdmin" />
+     <property name="decisioncenter.url" value="http://localhost:${server.port}/decisioncenter" />
+   </target>
+
+	<target name="deployLoanValidationService" depends="initDeploy">
+	        <deploy projectName="Loan Validation Service" 
+			        branch="%current_key" 
+					deploymentName="test deployment"
+					servers="Decision Service Execution"
+					username="${login}"
+					password="${password}"
+	                serverURL="${decisioncenter.url}"
+	                datasourceName="${db.dataSource}"
+		 	        deployArchiveToRES="true"
+					/>
+	        <echo>Loan Validation Service deployed.</echo>
+	  </target>  
+
+	<target name="deployShipmentPricing" depends="initDeploy">
+	        <deploy projectName="Shipment Pricing" 
+			        branch="%current_key" 
+					deploymentName="Shipment Pricing Deployment"
+					servers="Decision Service Execution"
+					username="${login}"
+					password="${password}"
+	                serverURL="${decisioncenter.url}"
+	                datasourceName="${db.dataSource}"
+		 	        deployArchiveToRES="true"
+					/>
+	        <echo>Shipment Pricing deployed.</echo>
+	  </target>  
+
+	  <!--              B U I L D  -->
+	
+	<target name="initBuild">
+		<!-- build -->
+		<property name="data.dir" location="data"/>
+		<property name="src.dir" location="src"/>
+		<property name="classes.dir" location="bin"/>
+ 		<!-- classpath to compile the sample -->
+		<path id="compile.classpath">
+			<pathelement location="${classes.dir}"/>
+			<pathelement location="."/>
+			<fileset dir="${executionserver.home}/lib">
+				<include name="commons-logging-*.jar"/>
+	            <include name="httpclient.jar"/>
+				<include name="httpcore.jar"/>
+				<include name="commons-codec-*.jar"/>
+			</fileset>
+			<fileset dir="${teamserver.home}/lib">
+				<include name="json4j*.jar"/>
+			</fileset>
+		</path>
+		<!-- classpath to execute the sample -->
+		<path id="execution.classpath">
+		  <path refid="compile.classpath" />
+		  <pathelement location="${data.dir}"/>
+		</path>
+		<mkdir dir="${data.dir}"/>
+	</target>
+
+	<target name="build"  depends="initBuild">
+		<mkdir dir="${classes.dir}"/>
+		<!-- Copy the server properties file-->
+		<copy file="${odm.wlp.scripts.dir}/build.properties"
+		      todir="${classes.dir}" />
+		<javac includeantruntime="false" srcdir="${src.dir}" destdir="${classes.dir}"   nowarn="true" source="1.7" target="1.7" verbose="off" debug="on" fork="true">
+			<classpath refid="compile.classpath"/>
+		</javac>
+	</target>
+
+	  <!--              S E T    R U L E S E T   P R O P E R T I E S -->
+	<target name="setBAIProperties" depends="build" >
+		  <java dir="." classname="client.SampleRun" fork="yes" failonerror="yes">
+				<classpath>
+					<path refid="execution.classpath"/>
+				</classpath>
+				<arg line="SETPROPERTIES"/>
+			</java>
+		</target>
+
+	  <!--              E X E C U T E    R U L E S E T -->
+	<target name="initialExecution" depends="build" >
+		  <java dir="." classname="client.SampleRun" fork="yes" failonerror="yes">
+				<classpath>
+					<path refid="execution.classpath"/>
+				</classpath>
+				<arg line="EXECUTE LoanValidation 5  data/loanVal.json"/>
+			</java>
+		  <java dir="." classname="client.SampleRun" fork="yes" failonerror="yes">
+				<classpath>
+					<path refid="execution.classpath"/>
+				</classpath>
+				<arg line="EXECUTE ShipmentPricing 5  data/shipment.json"/>
+			</java>
+	</target>
+
+	<target name="executeLoanValidation" depends="build" description="Execute the ruleset with JSON request">
+		  <java dir="." classname="client.SampleRun" fork="yes" failonerror="yes">
+				<classpath>
+					<path refid="execution.classpath"/>
+				</classpath>
+				<arg line="EXECUTE LoanValidation 200  data/loanVal.json"/>
+			</java>
+		</target>
+
+	<target name="executeFixLoanValidation" depends="build" description="Execute the ruleset with JSON request">
+		  <java dir="." classname="client.SampleRun" fork="yes" failonerror="yes">
+				<classpath>
+					<path refid="execution.classpath"/>
+				</classpath>
+				<arg line="EXECUTE LoanValidation 200  data/loanFixVal.json"/>
+			</java>
+		</target>
+
+	<target name="executeShipmentPricing" depends="build" description="Execute the ruleset with JSON request">
+		  <java dir="." classname="client.SampleRun" fork="yes" failonerror="yes">
+				<classpath>
+					<path refid="execution.classpath"/>
+				</classpath>
+				<arg line="EXECUTE ShipmentPricing 200  data/shipment.json"/>
+			</java>
+		</target>
+
+	<!--              H E L P  -->
+	<target name="usage" depends="build">
+		  <java dir="." classname="client.SampleRun" fork="yes" failonerror="yes">
+				<classpath>
+					<path refid="execution.classpath"/>
+				</classpath>
+				<arg line="USAGE"/>
+			</java>
+		</target>
+
+	 <!-- C L E A N -->
+	  <target name="clean" description="Clean build directory and profile" depends="initBuild">
+		  <delete dir="${classes.dir}" />
+		  <!-- Stop the server to remove the profile -->
+		  <ant antfile="build.xml" target="destroyserver" dir="${shared.dir}/bin/" />
+	  </target>
+	 
+		
+
+</project>

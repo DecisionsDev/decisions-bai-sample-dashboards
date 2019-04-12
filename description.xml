@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!-- Licensed Materials - Property of IBM                           -->
+<!-- 5725-B69 5655-Y17 5655-Y31 5724-X98 5724-Y15 5655-V82                                     -->
+<!-- Copyright IBM Corp. 1987, 2019. All Rights Reserved            -->
+<!-- US Government Users Restricted Rights - Use, duplication or    -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with        -->
+<!-- IBM Corp.                                                      -->
+<item>
+  <name>BAI custom dashboards</name> 
+  <description/> 
+  <module>res</module>
+  <onimport>
+  	<switchtojava/>
+  </onimport>   
+  <virtualpath>%res/%samples/%name</virtualpath>     
+  <projects>
+ 	<local name="."/>
+  </projects>
+</item>

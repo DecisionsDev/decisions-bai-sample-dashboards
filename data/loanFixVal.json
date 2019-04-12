@@ -1,0 +1,4602 @@
+[
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "91",
+            "serialNumber": "1234"
+         },
+         "birth": "1856-08-07",
+         "creditScore": 200,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 22000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 87,
+         "startDate": "2027-02-28"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "58",
+            "serialNumber": "9138"
+         },
+         "birth": "1852-07-13",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 64000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 16,
+         "startDate": "2026-10-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "91",
+            "serialNumber": "4569"
+         },
+         "birth": "1906-05-04",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 46000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 41,
+         "startDate": "2022-11-09"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "81",
+            "serialNumber": "8696"
+         },
+         "birth": "1904-02-13",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 17000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 144,
+         "startDate": "2024-02-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "8696"
+         },
+         "birth": "1948-07-03",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 36000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 127,
+         "startDate": "2028-05-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "58",
+            "serialNumber": "4569"
+         },
+         "birth": "1954-02-11",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 51000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 230,
+         "startDate": "2022-05-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1905-08-21",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 32000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 279,
+         "startDate": "2026-12-08"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "45",
+            "serialNumber": "4569"
+         },
+         "birth": "1942-04-25",
+         "creditScore": 200,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 70000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 207,
+         "startDate": "2029-08-03"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "58",
+            "serialNumber": "5817"
+         },
+         "birth": "1879-05-14",
+         "creditScore": 300,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 9000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 192,
+         "startDate": "2022-05-16"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "12",
+            "serialNumber": "8696"
+         },
+         "birth": "1923-08-13",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 39000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 140,
+         "startDate": "2028-10-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "8696"
+         },
+         "birth": "1971-11-06",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 36000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 176,
+         "startDate": "2027-05-21"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1865-12-18",
+         "creditScore": 300,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 22000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 194,
+         "startDate": "2022-12-01"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1960-10-23",
+         "creditScore": 500,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 21000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 20,
+         "startDate": "2022-09-19"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1926-10-21",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 59000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 297,
+         "startDate": "2020-06-14"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1955-06-16",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 77000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 56,
+         "startDate": "2027-04-21"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "58",
+            "serialNumber": "4569"
+         },
+         "birth": "1876-09-14",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 48000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 236,
+         "startDate": "2023-02-14"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "1234"
+         },
+         "birth": "1876-10-22",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 47000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 56,
+         "startDate": "2029-11-06"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "8696"
+         },
+         "birth": "1948-04-15",
+         "creditScore": 500,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 24000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 247,
+         "startDate": "2025-04-18"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "81",
+            "serialNumber": "9138"
+         },
+         "birth": "1877-05-27",
+         "creditScore": 200,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 53000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 194,
+         "startDate": "2025-03-19"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1981-05-14",
+         "creditScore": 100,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 22000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 50,
+         "startDate": "2026-02-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "5817"
+         },
+         "birth": "1855-12-13",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 8000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 179,
+         "startDate": "2027-12-27"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1957-08-26",
+         "creditScore": 300,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 78000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 288,
+         "startDate": "2026-02-18"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "58",
+            "serialNumber": "1234"
+         },
+         "birth": "1988-10-27",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 8000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 191,
+         "startDate": "2020-09-09"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "91",
+            "serialNumber": "9138"
+         },
+         "birth": "1970-03-20",
+         "creditScore": 200,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 41000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 353,
+         "startDate": "2024-06-15"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "9138"
+         },
+         "birth": "1978-04-27",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 49000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 317,
+         "startDate": "2027-07-23"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1928-06-09",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 74000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 138,
+         "startDate": "2026-03-10"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "58",
+            "serialNumber": "1234"
+         },
+         "birth": "1907-09-02",
+         "creditScore": 400,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 28000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 202,
+         "startDate": "2023-05-25"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1897-02-26",
+         "creditScore": 400,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 44000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 46,
+         "startDate": "2028-09-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "58",
+            "serialNumber": "9138"
+         },
+         "birth": "1867-08-11",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 20000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 101,
+         "startDate": "2019-12-26"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1973-06-11",
+         "creditScore": 500,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 69000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 347,
+         "startDate": "2028-07-03"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1916-11-02",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 69000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 126,
+         "startDate": "2019-09-02"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "91",
+            "serialNumber": "1234"
+         },
+         "birth": "1902-05-02",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 45000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 27,
+         "startDate": "2021-02-20"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "4569"
+         },
+         "birth": "1878-12-20",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 42000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 125,
+         "startDate": "2029-06-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1892-03-23",
+         "creditScore": 200,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 77000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 142,
+         "startDate": "2020-06-13"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1921-11-01",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 75000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 199,
+         "startDate": "2029-09-15"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "58",
+            "serialNumber": "5817"
+         },
+         "birth": "1921-03-21",
+         "creditScore": 200,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 36000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 164,
+         "startDate": "2023-07-21"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "8696"
+         },
+         "birth": "1983-10-07",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 35000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 19,
+         "startDate": "2024-05-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1930-06-19",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 43000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 267,
+         "startDate": "2020-03-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1948-04-21",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 36000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 48,
+         "startDate": "2024-05-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "91",
+            "serialNumber": "4569"
+         },
+         "birth": "1914-06-10",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 39000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 251,
+         "startDate": "2023-11-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "12",
+            "serialNumber": "8696"
+         },
+         "birth": "1911-11-07",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 77000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 63,
+         "startDate": "2028-02-16"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1974-11-27",
+         "creditScore": 300,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 10000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 287,
+         "startDate": "2026-02-02"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "5817"
+         },
+         "birth": "1920-12-08",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 15000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 221,
+         "startDate": "2026-12-04"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "58",
+            "serialNumber": "4569"
+         },
+         "birth": "1998-03-14",
+         "creditScore": 100,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 79000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 269,
+         "startDate": "2025-04-02"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1999-05-06",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 58000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 153,
+         "startDate": "2019-06-26"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "8696"
+         },
+         "birth": "1963-06-03",
+         "creditScore": 200,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 61000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 130,
+         "startDate": "2019-03-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1918-06-07",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 43000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 133,
+         "startDate": "2021-07-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "81",
+            "serialNumber": "4569"
+         },
+         "birth": "1994-02-24",
+         "creditScore": 100,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 39000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 72,
+         "startDate": "2027-04-04"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "4569"
+         },
+         "birth": "1982-02-06",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 11000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 356,
+         "startDate": "2021-08-10"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "12",
+            "serialNumber": "9138"
+         },
+         "birth": "1869-08-26",
+         "creditScore": 300,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 59000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 173,
+         "startDate": "2028-10-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "5817"
+         },
+         "birth": "1939-12-04",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 64000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 133,
+         "startDate": "2020-11-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1984-09-08",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 26000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 86,
+         "startDate": "2023-07-26"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "4569"
+         },
+         "birth": "1882-03-06",
+         "creditScore": 500,
+         "firstName": "Linda",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 67000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 203,
+         "startDate": "2024-04-10"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "8696"
+         },
+         "birth": "1999-02-04",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 17000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 38,
+         "startDate": "2024-03-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "4569"
+         },
+         "birth": "1889-09-14",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 54000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 110,
+         "startDate": "2024-09-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1976-04-13",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 58000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 59,
+         "startDate": "2023-06-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "8696"
+         },
+         "birth": "1992-04-02",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 54000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 266,
+         "startDate": "2024-08-02"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1860-12-04",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 76000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 298,
+         "startDate": "2029-11-03"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "58",
+            "serialNumber": "1234"
+         },
+         "birth": "1870-09-10",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 65000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 292,
+         "startDate": "2019-07-15"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "9138"
+         },
+         "birth": "1960-09-04",
+         "creditScore": 500,
+         "firstName": "John",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 37000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 33,
+         "startDate": "2024-08-14"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1993-08-18",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 69000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 349,
+         "startDate": "2029-05-19"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1911-05-19",
+         "creditScore": 300,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 47000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 47,
+         "startDate": "2026-08-08"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1868-07-15",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 27000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 195,
+         "startDate": "2027-07-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1875-11-09",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 63000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 257,
+         "startDate": "2020-05-11"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1865-09-30",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 65000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 297,
+         "startDate": "2028-05-10"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "91",
+            "serialNumber": "8696"
+         },
+         "birth": "1938-12-26",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 11000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 348,
+         "startDate": "2019-10-26"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1931-12-04",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 66000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 265,
+         "startDate": "2029-02-19"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1913-11-09",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 29000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 152,
+         "startDate": "2029-04-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "91",
+            "serialNumber": "9138"
+         },
+         "birth": "1903-03-10",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 62000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 238,
+         "startDate": "2025-08-21"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1993-11-21",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 17000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 170,
+         "startDate": "2025-02-04"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "12",
+            "serialNumber": "4569"
+         },
+         "birth": "1943-10-22",
+         "creditScore": 500,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 66000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 55,
+         "startDate": "2020-10-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1890-04-15",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 69000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 311,
+         "startDate": "2022-06-30"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "4569"
+         },
+         "birth": "1921-02-28",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 27000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 88,
+         "startDate": "2021-12-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "9138"
+         },
+         "birth": "1997-07-04",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 76000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 28,
+         "startDate": "2021-11-25"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1903-09-19",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 53000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 80,
+         "startDate": "2026-04-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "81",
+            "serialNumber": "9138"
+         },
+         "birth": "1916-02-18",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 30000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 307,
+         "startDate": "2025-08-09"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "91",
+            "serialNumber": "5817"
+         },
+         "birth": "1996-06-04",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 17000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 274,
+         "startDate": "2022-12-05"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1897-04-21",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 54000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 59,
+         "startDate": "2019-02-13"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "91",
+            "serialNumber": "4569"
+         },
+         "birth": "1977-05-11",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 15000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 91,
+         "startDate": "2025-11-03"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "4569"
+         },
+         "birth": "1932-11-04",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 26000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 186,
+         "startDate": "2027-07-23"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "91",
+            "serialNumber": "1234"
+         },
+         "birth": "1900-11-30",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 25000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 294,
+         "startDate": "2025-10-09"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "58",
+            "serialNumber": "1234"
+         },
+         "birth": "1851-10-27",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 68000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 336,
+         "startDate": "2020-06-02"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "12",
+            "serialNumber": "9138"
+         },
+         "birth": "1974-04-04",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 25000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 158,
+         "startDate": "2027-06-13"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "12",
+            "serialNumber": "8696"
+         },
+         "birth": "1897-03-18",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 32000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 39,
+         "startDate": "2019-03-31"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1975-09-30",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 62000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 60,
+         "startDate": "2026-07-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "91",
+            "serialNumber": "1234"
+         },
+         "birth": "1955-07-03",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 29000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 312,
+         "startDate": "2025-11-06"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1887-02-20",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 32000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 228,
+         "startDate": "2025-11-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "12",
+            "serialNumber": "4569"
+         },
+         "birth": "1938-04-11",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 73000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 220,
+         "startDate": "2024-02-10"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1961-09-25",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 36000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 162,
+         "startDate": "2022-06-20"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1928-02-29",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 62000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 53,
+         "startDate": "2024-10-11"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "58",
+            "serialNumber": "1234"
+         },
+         "birth": "1936-09-25",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 71000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 295,
+         "startDate": "2027-08-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1867-05-22",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 68000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 352,
+         "startDate": "2024-11-15"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "91",
+            "serialNumber": "4569"
+         },
+         "birth": "1995-02-12",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 59000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 101,
+         "startDate": "2022-05-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1901-04-11",
+         "creditScore": 200,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 35000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 290,
+         "startDate": "2020-10-05"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "91",
+            "serialNumber": "5817"
+         },
+         "birth": "1966-12-16",
+         "creditScore": 100,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 41000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 233,
+         "startDate": "2025-12-01"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "91",
+            "serialNumber": "4569"
+         },
+         "birth": "1922-05-05",
+         "creditScore": 100,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 26000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 27,
+         "startDate": "2027-04-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1997-12-03",
+         "creditScore": 100,
+         "firstName": "Linda",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 49000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 17,
+         "startDate": "2026-12-13"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1854-03-17",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 55000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 53,
+         "startDate": "2028-06-04"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1853-06-05",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 8000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 117,
+         "startDate": "2019-06-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1956-02-11",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 39000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 328,
+         "startDate": "2022-02-13"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "91",
+            "serialNumber": "9138"
+         },
+         "birth": "1870-03-11",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 38000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 172,
+         "startDate": "2026-12-27"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1867-12-08",
+         "creditScore": 500,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 18000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 222,
+         "startDate": "2023-09-03"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "1234"
+         },
+         "birth": "1942-03-16",
+         "creditScore": 300,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 36000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 144,
+         "startDate": "2026-09-06"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "91",
+            "serialNumber": "5817"
+         },
+         "birth": "1933-09-30",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 70000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 126,
+         "startDate": "2027-03-01"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1955-11-19",
+         "creditScore": 400,
+         "firstName": "Linda",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 60000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 355,
+         "startDate": "2024-02-06"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1861-03-22",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 19000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 112,
+         "startDate": "2023-06-01"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1950-11-13",
+         "creditScore": 500,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 50000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 220,
+         "startDate": "2029-06-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "91",
+            "serialNumber": "5817"
+         },
+         "birth": "1959-07-02",
+         "creditScore": 300,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 73000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 75,
+         "startDate": "2021-06-03"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "9138"
+         },
+         "birth": "1959-09-27",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 55000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 208,
+         "startDate": "2024-07-09"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "91",
+            "serialNumber": "8696"
+         },
+         "birth": "1933-08-15",
+         "creditScore": 200,
+         "firstName": "John",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 41000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 114,
+         "startDate": "2021-11-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "12",
+            "serialNumber": "9138"
+         },
+         "birth": "1980-09-07",
+         "creditScore": 200,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 33000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 282,
+         "startDate": "2024-03-05"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "9138"
+         },
+         "birth": "1861-03-16",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 54000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 234,
+         "startDate": "2020-06-05"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1945-10-01",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 16000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 99,
+         "startDate": "2025-09-10"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "5817"
+         },
+         "birth": "1931-11-15",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 55000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 113,
+         "startDate": "2020-08-04"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "1234"
+         },
+         "birth": "1990-05-21",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 29000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 230,
+         "startDate": "2024-08-26"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "1234"
+         },
+         "birth": "1932-07-18",
+         "creditScore": 100,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 48000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 173,
+         "startDate": "2023-09-27"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1980-03-03",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 51000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 147,
+         "startDate": "2020-10-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1878-04-13",
+         "creditScore": 200,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 72000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 299,
+         "startDate": "2029-04-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1952-10-07",
+         "creditScore": 500,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 22000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 332,
+         "startDate": "2019-09-25"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "81",
+            "serialNumber": "8696"
+         },
+         "birth": "1880-10-16",
+         "creditScore": 300,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 22000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 230,
+         "startDate": "2025-10-02"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1850-03-11",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 55000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 58,
+         "startDate": "2024-06-03"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "91",
+            "serialNumber": "8696"
+         },
+         "birth": "1946-04-23",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 28000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 238,
+         "startDate": "2020-02-08"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "58",
+            "serialNumber": "1234"
+         },
+         "birth": "1969-04-13",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 48000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 57,
+         "startDate": "2020-10-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1863-04-01",
+         "creditScore": 300,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 47000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 120,
+         "startDate": "2028-10-16"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "12",
+            "serialNumber": "4569"
+         },
+         "birth": "1960-03-15",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 65000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 192,
+         "startDate": "2028-04-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1999-09-25",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 44000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 213,
+         "startDate": "2021-12-14"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "1234"
+         },
+         "birth": "1877-07-24",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 10000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 199,
+         "startDate": "2027-09-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "9138"
+         },
+         "birth": "1943-03-11",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 43000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 324,
+         "startDate": "2022-02-16"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "91",
+            "serialNumber": "9138"
+         },
+         "birth": "1983-06-20",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 72000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 273,
+         "startDate": "2025-03-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "91",
+            "serialNumber": "8696"
+         },
+         "birth": "1870-08-23",
+         "creditScore": 100,
+         "firstName": "John",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 65000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 172,
+         "startDate": "2019-05-14"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "81",
+            "serialNumber": "9138"
+         },
+         "birth": "1881-07-13",
+         "creditScore": 300,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 21000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 157,
+         "startDate": "2027-08-14"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1918-04-09",
+         "creditScore": 400,
+         "firstName": "Linda",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 71000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 245,
+         "startDate": "2025-09-11"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1947-08-25",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 9000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 85,
+         "startDate": "2024-11-05"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1950-06-05",
+         "creditScore": 200,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 22000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 47,
+         "startDate": "2026-12-25"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "91",
+            "serialNumber": "4569"
+         },
+         "birth": "1963-11-30",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 75000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 126,
+         "startDate": "2029-04-09"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "45",
+            "serialNumber": "1234"
+         },
+         "birth": "1945-10-26",
+         "creditScore": 400,
+         "firstName": "Linda",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 71000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 56,
+         "startDate": "2025-05-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1886-11-24",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 25000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 67,
+         "startDate": "2028-02-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "4569"
+         },
+         "birth": "1882-02-09",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 46000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 312,
+         "startDate": "2025-10-26"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "8696"
+         },
+         "birth": "1981-08-14",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 30000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 120,
+         "startDate": "2028-07-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "91",
+            "serialNumber": "9138"
+         },
+         "birth": "1961-06-25",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 39000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 212,
+         "startDate": "2027-01-31"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "5817"
+         },
+         "birth": "1856-03-03",
+         "creditScore": 500,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 17000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 127,
+         "startDate": "2022-03-18"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "81",
+            "serialNumber": "8696"
+         },
+         "birth": "1897-07-01",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 39000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 311,
+         "startDate": "2028-06-20"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "81",
+            "serialNumber": "4569"
+         },
+         "birth": "1996-06-03",
+         "creditScore": 300,
+         "firstName": "Linda",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 33000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 17,
+         "startDate": "2026-02-10"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "45",
+            "serialNumber": "4569"
+         },
+         "birth": "1927-08-19",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 29000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 170,
+         "startDate": "2022-12-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "45",
+            "serialNumber": "8696"
+         },
+         "birth": "1972-02-11",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 71000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 241,
+         "startDate": "2029-11-01"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "8696"
+         },
+         "birth": "1943-04-30",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 31000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 290,
+         "startDate": "2027-12-19"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1924-10-09",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 74000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 125,
+         "startDate": "2024-05-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1948-06-12",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 77000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 293,
+         "startDate": "2026-07-04"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1959-04-23",
+         "creditScore": 200,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 24000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 85,
+         "startDate": "2029-07-18"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "9138"
+         },
+         "birth": "1950-08-23",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 24000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 17,
+         "startDate": "2023-09-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1869-08-04",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 64000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 34,
+         "startDate": "2025-07-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "4569"
+         },
+         "birth": "1864-03-25",
+         "creditScore": 200,
+         "firstName": "John",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 20000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 288,
+         "startDate": "2020-12-08"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "81",
+            "serialNumber": "4569"
+         },
+         "birth": "1851-06-30",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 28000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 264,
+         "startDate": "2020-04-02"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "91",
+            "serialNumber": "1234"
+         },
+         "birth": "1883-12-22",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 60000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 203,
+         "startDate": "2021-06-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1952-07-13",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 33000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 279,
+         "startDate": "2028-06-16"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1975-11-03",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 18000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 140,
+         "startDate": "2026-03-03"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "58",
+            "serialNumber": "4569"
+         },
+         "birth": "1920-02-14",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 10000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 270,
+         "startDate": "2019-08-20"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "81",
+            "serialNumber": "8696"
+         },
+         "birth": "1956-09-07",
+         "creditScore": 300,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 65000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 246,
+         "startDate": "2023-02-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1904-06-12",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 37000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 199,
+         "startDate": "2023-08-15"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "81",
+            "serialNumber": "8696"
+         },
+         "birth": "1854-06-14",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 36000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 162,
+         "startDate": "2019-04-09"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1957-11-24",
+         "creditScore": 500,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 50000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 97,
+         "startDate": "2020-08-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "12",
+            "serialNumber": "1234"
+         },
+         "birth": "1924-02-06",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 70000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 60,
+         "startDate": "2025-03-21"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1956-08-25",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 68000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 238,
+         "startDate": "2029-10-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "1234"
+         },
+         "birth": "1880-10-25",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 45000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 28,
+         "startDate": "2019-07-27"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1972-12-15",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 54000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 64,
+         "startDate": "2022-08-15"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "12",
+            "serialNumber": "4569"
+         },
+         "birth": "1891-12-20",
+         "creditScore": 200,
+         "firstName": "John",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 67000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 149,
+         "startDate": "2028-04-14"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1896-10-18",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 26000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 67,
+         "startDate": "2022-11-23"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1887-12-22",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 38000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 107,
+         "startDate": "2026-05-19"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "81",
+            "serialNumber": "8696"
+         },
+         "birth": "1914-07-17",
+         "creditScore": 500,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 75000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 31,
+         "startDate": "2025-02-18"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "8696"
+         },
+         "birth": "1874-01-31",
+         "creditScore": 300,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 25000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 281,
+         "startDate": "2026-04-15"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1858-03-21",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 23000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 195,
+         "startDate": "2028-05-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "8696"
+         },
+         "birth": "1934-03-03",
+         "creditScore": 300,
+         "firstName": "John",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 67000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 52,
+         "startDate": "2020-06-24"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "91",
+            "serialNumber": "1234"
+         },
+         "birth": "1944-07-04",
+         "creditScore": 500,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 17000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 285,
+         "startDate": "2021-04-30"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "58",
+            "serialNumber": "8696"
+         },
+         "birth": "1888-10-25",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 23000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 75,
+         "startDate": "2026-09-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "58",
+            "serialNumber": "5817"
+         },
+         "birth": "1990-02-13",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 24000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 334,
+         "startDate": "2019-04-06"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "45",
+            "serialNumber": "1234"
+         },
+         "birth": "1910-10-04",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 22000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 181,
+         "startDate": "2024-02-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "12",
+            "serialNumber": "8696"
+         },
+         "birth": "1909-09-07",
+         "creditScore": 100,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 30000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 42,
+         "startDate": "2024-06-19"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "91",
+            "serialNumber": "5817"
+         },
+         "birth": "1949-03-19",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 34000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 189,
+         "startDate": "2024-11-25"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "81",
+            "serialNumber": "4569"
+         },
+         "birth": "1941-12-22",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 32000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 279,
+         "startDate": "2027-12-05"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "58",
+            "serialNumber": "9138"
+         },
+         "birth": "1952-07-31",
+         "creditScore": 400,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 47000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 62,
+         "startDate": "2029-05-20"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "45",
+            "serialNumber": "4569"
+         },
+         "birth": "1898-10-14",
+         "creditScore": 300,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 39000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 77,
+         "startDate": "2027-03-22"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1976-11-05",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 60000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 138,
+         "startDate": "2022-04-02"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "456",
+            "groupCode": "58",
+            "serialNumber": "5817"
+         },
+         "birth": "1999-03-09",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 46000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 340,
+         "startDate": "2025-02-02"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "45",
+            "serialNumber": "4569"
+         },
+         "birth": "1918-09-13",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 65000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 56,
+         "startDate": "2024-06-20"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "12",
+            "serialNumber": "8696"
+         },
+         "birth": "1863-08-26",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 42000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 48,
+         "startDate": "2021-05-09"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "9138"
+         },
+         "birth": "1853-04-30",
+         "creditScore": 500,
+         "firstName": "Betty",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 20000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 205,
+         "startDate": "2025-04-20"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "12",
+            "serialNumber": "5817"
+         },
+         "birth": "1971-12-01",
+         "creditScore": 300,
+         "firstName": "Betty",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 38000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 28,
+         "startDate": "2029-04-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "81",
+            "serialNumber": "4569"
+         },
+         "birth": "1888-09-04",
+         "creditScore": 200,
+         "firstName": "Paul",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 64000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 145,
+         "startDate": "2022-02-10"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "91",
+            "serialNumber": "8696"
+         },
+         "birth": "1861-09-06",
+         "creditScore": 100,
+         "firstName": "Betty",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 17000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 20000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 43,
+         "startDate": "2025-09-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "5817"
+         },
+         "birth": "1979-04-14",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 16000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 30000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 89,
+         "startDate": "2023-08-11"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "81",
+            "serialNumber": "8696"
+         },
+         "birth": "1987-03-02",
+         "creditScore": 100,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 69000,
+         "zipCode": "12284"
+      },
+      "loan": {
+         "amount": 70000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 80,
+         "startDate": "2023-10-07"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "45",
+            "serialNumber": "5817"
+         },
+         "birth": "1951-08-16",
+         "creditScore": 200,
+         "firstName": "Linda",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 45000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 40000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 302,
+         "startDate": "2023-06-15"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "91",
+            "serialNumber": "5817"
+         },
+         "birth": "1888-12-26",
+         "creditScore": 100,
+         "firstName": "John",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 73000,
+         "zipCode": "45695"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 135,
+         "startDate": "2019-08-12"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "12",
+            "serialNumber": "9138"
+         },
+         "birth": "1998-09-13",
+         "creditScore": 400,
+         "firstName": "Linda",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 71000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 308,
+         "startDate": "2027-09-19"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "123",
+            "groupCode": "45",
+            "serialNumber": "9138"
+         },
+         "birth": "1918-06-19",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Dupont",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 64000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 129,
+         "startDate": "2024-05-03"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "81",
+            "serialNumber": "9138"
+         },
+         "birth": "1897-11-10",
+         "creditScore": 400,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 28000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 60000,
+         "loanToValue": 0.30000000000000004,
+         "numberOfMonthlyPayments": 219,
+         "startDate": "2028-11-17"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "9138"
+         },
+         "birth": "1968-03-16",
+         "creditScore": 400,
+         "firstName": "Betty",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 38000,
+         "zipCode": "12345"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 59,
+         "startDate": "2022-10-06"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "892",
+            "groupCode": "81",
+            "serialNumber": "5817"
+         },
+         "birth": "1952-08-27",
+         "creditScore": 100,
+         "firstName": "Paul",
+         "lastName": "Doe",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 75000,
+         "zipCode": "74162"
+      },
+      "loan": {
+         "amount": 80000,
+         "loanToValue": 0.5,
+         "numberOfMonthlyPayments": 214,
+         "startDate": "2021-02-10"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "918",
+            "groupCode": "58",
+            "serialNumber": "4569"
+         },
+         "birth": "1926-10-01",
+         "creditScore": 300,
+         "firstName": "Linda",
+         "lastName": "Wilson",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 53000,
+         "zipCode": "85461"
+      },
+      "loan": {
+         "amount": 50000,
+         "loanToValue": 0.6000000000000001,
+         "numberOfMonthlyPayments": 263,
+         "startDate": "2028-12-14"
+      }
+   },
+   {
+      "borrower": {
+         "SSN": {
+            "areaNumber": "587",
+            "groupCode": "91",
+            "serialNumber": "1234"
+         },
+         "birth": "1967-05-06",
+         "creditScore": 400,
+         "firstName": "John",
+         "lastName": "Smith",
+         "latestBankruptcy": null,
+         "spouse": null,
+         "yearlyIncome": 42000,
+         "zipCode": "12587"
+      },
+      "loan": {
+         "amount": 90000,
+         "loanToValue": 0.4,
+         "numberOfMonthlyPayments": 141,
+         "startDate": "2026-07-31"
+      }
+   }
+]
