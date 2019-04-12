@@ -1,0 +1,226 @@
+[
+  {
+    "_id": "2f67ce20-2952-11e9-9298-41e4b5b44758",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Sample Decisions Loan  Dashboard",
+      "hits": 0,
+      "description": "Sample dashboard showing business data on Loan Validation Service",
+      "panelsJSON": "[{\"embeddableConfig\":{\"vis\":{\"colors\":{\"Missing\":\"#E0F9D7\",\"false\":\"#2F575E\",\"true\":\"#7EB26D\"},\"legendOpen\":true}},\"gridData\":{\"x\":30,\"y\":0,\"w\":18,\"h\":7,\"i\":\"1\"},\"id\":\"a1577ef0-294c-11e9-9298-41e4b5b44758\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":30,\"w\":48,\"h\":19,\"i\":\"2\"},\"id\":\"a38ce770-294a-11e9-9298-41e4b5b44758\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":14,\"h\":2,\"i\":\"6\"},\"id\":\"72d72a90-295a-11e9-9298-41e4b5b44758\",\"panelIndex\":\"6\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":2,\"w\":14,\"h\":5,\"i\":\"12\"},\"id\":\"509737b0-473f-11e9-a9c1-a363d5a80ffd\",\"panelIndex\":\"12\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"gridData\":{\"x\":0,\"y\":18,\"w\":24,\"h\":12,\"i\":\"13\"},\"id\":\"18febf40-4743-11e9-a9c1-a363d5a80ffd\",\"panelIndex\":\"13\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"gridData\":{\"x\":24,\"y\":18,\"w\":24,\"h\":12,\"i\":\"14\"},\"id\":\"52925220-4744-11e9-a9c1-a363d5a80ffd\",\"panelIndex\":\"14\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":7,\"w\":24,\"h\":11,\"i\":\"15\"},\"id\":\"73cd1120-4747-11e9-a9c1-a363d5a80ffd\",\"panelIndex\":\"15\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":false,\"colors\":{\"false\":\"#2F575E\",\"true\":\"#7EB26D\"}}},\"gridData\":{\"x\":14,\"y\":0,\"w\":16,\"h\":7,\"i\":\"16\"},\"id\":\"f55f4700-4989-11e9-a9c1-a363d5a80ffd\",\"panelIndex\":\"16\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":64,\"w\":48,\"h\":14,\"i\":\"17\"},\"id\":\"2fb28890-4958-11e9-a9c1-a363d5a80ffd\",\"panelIndex\":\"17\",\"type\":\"search\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":49,\"w\":48,\"h\":15,\"i\":\"18\"},\"id\":\"faef8eb0-4a55-11e9-a9c1-a363d5a80ffd\",\"panelIndex\":\"18\",\"type\":\"visualization\",\"version\":\"6.5.3\"},{\"embeddableConfig\":{\"vis\":{\"colors\":{\"false\":\"#2F575E\",\"true\":\"#7EB26D\"}}},\"gridData\":{\"x\":0,\"y\":7,\"w\":24,\"h\":11,\"i\":\"19\"},\"id\":\"3060f9b0-4a58-11e9-a9c1-a363d5a80ffd\",\"panelIndex\":\"19\",\"type\":\"visualization\",\"version\":\"6.5.3\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "9be7e6e0-4746-11e9-a9c1-a363d5a80ffd",
+    "_type": "search",
+    "_source": {
+      "title": "Sample Decisions Loan - Rejected",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"dba-odm-timeseries-timestamp\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"dba-odm-timeseries-timestamp\",\"negate\":false,\"disabled\":false,\"alias\":\"Loan rejected\",\"type\":\"phrase\",\"key\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.approved\",\"value\":\"false\",\"params\":{\"query\":false,\"type\":\"phrase\"}},\"query\":{\"match\":{\"data.test_deployment.loan_validation_with_score_and_grade.out.report.approved\":{\"query\":false,\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "8a042c90-473c-11e9-a9c1-a363d5a80ffd",
+    "_type": "search",
+    "_source": {
+      "title": "Sample Decisions Loan - Approved",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "data.test_deployment.loan_validation_with_score_and_grade.out.report.approved"
+      ],
+      "sort": [
+        "timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"dba-odm-timeseries-timestamp\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"meta\":{\"index\":\"dba-odm-timeseries-timestamp\",\"negate\":false,\"disabled\":false,\"alias\":\"Loan is approved\",\"type\":\"phrase\",\"key\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.approved\",\"value\":\"true\",\"params\":{\"query\":true,\"type\":\"phrase\"}},\"query\":{\"match\":{\"data.test_deployment.loan_validation_with_score_and_grade.out.report.approved\":{\"query\":true,\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"dba-odm-timeseries-timestamp\",\"negate\":false,\"disabled\":false,\"alias\":\"Decision Loan ruleset\",\"type\":\"phrase\",\"key\":\"rulesetPath\",\"value\":\"/test_deployment/1.0/loan_validation_with_score_and_grade/1.0\",\"params\":{\"query\":\"/test_deployment/1.0/loan_validation_with_score_and_grade/1.0\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"rulesetPath\":{\"query\":\"/test_deployment/1.0/loan_validation_with_score_and_grade/1.0\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "2fb28890-4958-11e9-a9c1-a363d5a80ffd",
+    "_type": "search",
+    "_source": {
+      "title": "Sample Decisions Loan - Search",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "data.test_deployment.loan_validation_with_score_and_grade.out.report.loan.amount",
+        "data.test_deployment.loan_validation_with_score_and_grade.out.report.approved"
+      ],
+      "sort": [
+        "timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"dba-odm-timeseries-timestamp\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Decisions Loan ruleset\",\"disabled\":false,\"index\":\"dba-odm-timeseries-timestamp\",\"key\":\"rulesetPath\",\"negate\":false,\"params\":{\"query\":\"/test_deployment/1.0/loan_validation_with_score_and_grade/1.0\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"/test_deployment/1.0/loan_validation_with_score_and_grade/1.0\"},\"query\":{\"match\":{\"rulesetPath\":{\"query\":\"/test_deployment/1.0/loan_validation_with_score_and_grade/1.0\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "a38ce770-294a-11e9-9298-41e4b5b44758",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Messages",
+      "visState": "{\"title\":\"Sample Decisions Loan - Messages\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"log\",\"orientation\":\"single\",\"minFontSize\":10,\"maxFontSize\":24,\"showLabel\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Trace\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.messages.keyword\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Loan validation decision messages.\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"dba-odm-timeseries-timestamp\",\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a1577ef0-294c-11e9-9298-41e4b5b44758",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Approval status",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"4\",\"params\":{\"customLabel\":\"Loan approved\",\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.approved\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"Valid data\",\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.validData\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":10},\"schema\":\"segment\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customLabel\":\"Grade\",\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.grade.keyword\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":10},\"schema\":\"segment\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"5\",\"params\":{\"customLabel\":\"Need insurance\",\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.insuranceRequired\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":false,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\"},\"title\":\"Sample Decisions Loan - Approval status\",\"type\":\"pie\"}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Missing\":\"#E0F9D7\",\"false\":\"#2F575E\",\"true\":\"#7EB26D\"},\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"dba-odm-timeseries-timestamp\",\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "73cd1120-4747-11e9-a9c1-a363d5a80ffd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Rejected loans per amount (message)",
+      "visState": "{\"title\":\"Sample Decisions Loan - Rejected loans per amount (message)\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":true,\"style\":{\"color\":\"#eee\"},\"valueAxis\":null},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"rotate\":0},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Rejected loan count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Rejected loan count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Rejected loan count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.loan.amount\",\"interval\":20000,\"extended_bounds\":{},\"customLabel\":\"Amount ($)\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.messages.keyword\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Message\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+      "description": "",
+      "savedSearchId": "9be7e6e0-4746-11e9-a9c1-a363d5a80ffd",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3060f9b0-4a58-11e9-a9c1-a363d5a80ffd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Average loan amount per duration (approval)",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customLabel\":\"Average loan amount ($)\",\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.in.loan.amount\"},\"schema\":\"metric\",\"type\":\"avg\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"Duration (month)\",\"extended_bounds\":{},\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.loan.numberOfMonthlyPayments\",\"interval\":60},\"schema\":\"segment\",\"type\":\"histogram\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customLabel\":\"Loan approval\",\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.approved\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":5},\"schema\":\"group\",\"type\":\"terms\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"rotate\":0,\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Average loan amount ($)\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Average loan amount ($)\"},\"type\":\"value\"}]},\"title\":\"Sample Decisions Loan - Average loan amount per duration (approval)\",\"type\":\"histogram\"}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"false\":\"#EF843C\",\"true\":\"#7EB26D\"}}}",
+      "description": "",
+      "savedSearchId": "2fb28890-4958-11e9-a9c1-a363d5a80ffd",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "faef8eb0-4a55-11e9-a9c1-a363d5a80ffd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Executed rules",
+      "visState": "{\"title\":\"Sample Decisions Loan - Executed rules\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Execution count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"trace.rule.names.keyword\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Rule name\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2fb28890-4958-11e9-a9c1-a363d5a80ffd",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "509737b0-473f-11e9-a9c1-a363d5a80ffd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Count of approved loans",
+      "visState": "{\"title\":\"Sample Decisions Loan - Count of approved loans\",\"type\":\"metric\",\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":15,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.loan.amount\",\"customLabel\":\"Amount ($)\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "8a042c90-473c-11e9-a9c1-a363d5a80ffd",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "52925220-4744-11e9-a9c1-a363d5a80ffd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Average approved loan amount per monthly repayment (grade)",
+      "visState": "{\"title\":\"Sample Decisions Loan - Average approved loan amount per monthly repayment (grade)\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100,\"rotate\":0},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Average  approved loan amount ($)\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Average  approved loan amount ($)\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.loan.amount\",\"customLabel\":\"Average  approved loan amount ($)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.monthlyRepayment\",\"interval\":400,\"extended_bounds\":{},\"customLabel\":\"Monthly repayment ($)\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.grade.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Grade\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "8a042c90-473c-11e9-a9c1-a363d5a80ffd",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "18febf40-4743-11e9-a9c1-a363d5a80ffd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Approved  loans per amount (duration)",
+      "visState": "{\"title\":\"Sample Decisions Loan - Approved  loans per amount (duration)\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100,\"rotate\":0},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Approved loan count\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Approved loan count\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Approved loan count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.loan.amount\",\"interval\":20000,\"extended_bounds\":{},\"customLabel\":\"Amount ($)\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"group\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.loan.numberOfMonthlyPayments\",\"interval\":60,\"extended_bounds\":{},\"customLabel\":\"Duration (month)\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "8a042c90-473c-11e9-a9c1-a363d5a80ffd",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f55f4700-4989-11e9-a9c1-a363d5a80ffd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Timeline",
+      "visState": "{\"title\":\"Sample Decisions Loan - Timeline\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Loan requests\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Loan requests\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Loan requests\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timestamp\",\"timeRange\":{\"from\":\"now-4h\",\"to\":\"now\",\"mode\":\"quick\"},\"useNormalizedEsInterval\":true,\"interval\":\"auto\",\"time_zone\":\"Europe/Berlin\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"data.test_deployment.loan_validation_with_score_and_grade.out.report.approved\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Loan approved\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"false\":\"#2F575E\",\"true\":\"#7EB26D\"}}}",
+      "description": "",
+      "savedSearchId": "2fb28890-4958-11e9-a9c1-a363d5a80ffd",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "72d72a90-295a-11e9-9298-41e4b5b44758",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sample Decisions Loan - Help",
+      "visState": "{\"title\":\"Sample Decisions Loan - Help\",\"type\":\"markdown\",\"params\":{\"fontSize\":12,\"markdown\":\"### Sample Decisions Loan dashboard\\n\\nThis dashboard displays data from running the Loan Validation Service decision service. The dashboard is divided into the following sections:\\n1. Global area\\n* Sample Decisions Loan - Help: This page provides a short description for each section in the dashboard.\\n* Sample Decisions Loan - Count of approved loans: This section shows the number of loan requests, and the total amount of the loans in dollars.\\n* Sample Decisions Loan - Timeline: The date histogram shows the arrival time of loan requests, and their approval statuses.\\n* Sample Decisions Loan - Approval status: This pie chart summarizes the data for the loan requests:\\n   - Loan approval: The core of the chart contrasts the number of approved and unapproved requests.\\n   - Data validity: This ring shows the amount of valid and invalid data.\\n   - Grades distribution: This ring indicates the grades of the loan requests.\\n   - Insurance: This ring shows the loans by insurance requirement.\\n2. Analysis Approval \\n*  Sample Decisions Loan - Average loan amount per duration (approval): Shows the number of approved (true) and unapproved (false) loans by duration. \\n*  Sample Decisions Loan - Rejected loans per amount (message): Breaks the rejected loans down by number of loans, amount and rejection message.\\n3. Distribution of approved loans.\\n*  Sample Decisions Loan - Approved loans per amount (duration): Stacks the approved loans by amount per duration.\\n*  Sample Decisions Loan - Average approved loan amount per monthly repayment (grade): The average approved loan amounts by monthly repayment rate and grade.\\n4. Sample Decisions Loan - Message: Shows the messages returned for transactions. The larger the message, the more frequent it has been given.\\n5. Sample Decisions Loan - Executed rules: Lists the fired rules by name, and the number of times each rule has been fired.\\n6. Technical search on the decisions trace.\\n\\nAll the widgets are set to filter on the Loan Validation Service ruleset.  All the widget names are prefixed with Sample Decisions Loan to make them easier to find.\\nFor more information, see  the [Business Automation Insights documentation](https://www.ibm.com/support/knowledgecenter/SSYHZ8_18.0.x/com.ibm.dba.bai/topics/con_bai_dashboards.html).\",\"openLinksInNewTab\":false},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  }
+]
