@@ -23,6 +23,8 @@ You define the connection to your Business Automation Insights instance. The set
 
 3.   If security is enabled on your Business Automation Insights installation, set the property values for the security settings (see [Securing ODM emitter communications to Kafka](https://www.ibm.com/support/knowledgecenter/en/SSYHZ8_18.0.x/com.ibm.dba.bai/topics/tsk_bai_security_comm_top_odm_emitter_to_kafka.html)). If not, keep only the properties set in substep 2.
 
+**Note:** In Windows, give the full path to a key file by using the slash or doubling the backslash to avoid the skipping mechanism.
+
 4.   Save your changes.
 
 ## Step 2: Setting up the DecisionService application to enable the Business Automation Insights events emitter.
@@ -51,9 +53,9 @@ You use a setup command to prepare the sample.
 
 You check the results from running the setup command.
 
-1.   Navigate to *LibertyInstall*/usr/servers/odm81010/apps, which contains all the sample web applications for ODM.
- The **DecisionService.war** was modified after the others applications because it was repackaged.
-2.   Open *LibertyInstall*/usr/servers/odm81010/logs/console.log.
+1.   Navigate to *LibertyInstall*/usr/servers/*profileName*/apps, which contains all the sample web applications for Operational Decision Manager.
+ The **DecisionService.war** was modified after the other applications because it was repackaged.
+2.   Open *LibertyInstall*/usr/servers/*profileName*/logs/console.log.
 3.   Search for the string DecisionService to find the following message:
 
     CWWKZ0001I: Application DecisionService started 
